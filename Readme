@@ -1,0 +1,38 @@
+This project is to create recommendation system for MOOC data.
+The recommendation system is implemented using both apriori algorithm and K-means clustering algorithm.
+
+Apriori Algorithm for MOOC course recommender.
+
+This is a python file that recommends the course based on Apriori algorithm.
+
+The data that this requires is a csv file that should have two columns one with userid and other columns should include course IDs.
+
+The code make use of the following libraries
+
+pandas
+numpy
+networkx
+mlxtend.frequent_patterns import
+apriori
+association_rules
+plotly.express
+plotly.graph_objects
+mlxtend.preprocessing
+TransactionEncoder
+glob
+
+Also, the code is built on google colaboratory.
+
+The program outputs a file "Freq2020.csv" that contains the courses frequently done together.
+
+k-Means Algorithm
+
+This file contains information about how to run k-means clustering for semester data on an NPTEL course. The code was run and tested on the Google Colab environment.
+
+1. Load the zipped folder containing the MOOC course data on Google Drive.
+2. Specify the directory for the unzip (!unzip) command and the glob() functions in the code.
+3. Run the file.
+
+-You can alternately load the file from local device and run. In that case, the file importing commands will need to be changed accordingly.
+
+-The code was run for two offerings' data and with 10,000 learners' data only. You can change the code accordingly to accommodate more data.
